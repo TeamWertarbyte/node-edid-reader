@@ -6,12 +6,12 @@ EDID Reader library for node
 
 Install
 ```bash
-npm install edid-reader
+npm install @wertarbyte/edid-reader
 ```
 
 Fetching local system edid
 ```js
-const EdidReader = require('edid-reader');
+const EdidReader = require('@wertarbyte/edid-reader');
 const edidReader = new EdidReader();
 edidReader.scan()
 .then(() => {
